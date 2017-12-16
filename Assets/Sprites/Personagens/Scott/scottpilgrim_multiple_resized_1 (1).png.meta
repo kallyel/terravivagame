@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 7b6529e8cd228b94c86de71c23b4f99a
+timeCreated: 1501958045
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: scottpilgrim_multiple_resized_1 (1)_0
+    21300002: scottpilgrim_multiple_resized_1 (1)_1
+    21300004: scottpilgrim_multiple_resized_1 (1)_2
+    21300006: scottpilgrim_multiple_resized_1 (1)_3
+    21300008: scottpilgrim_multiple_resized_1 (1)_4
+    21300010: scottpilgrim_multiple_resized_1 (1)_5
+    21300012: scottpilgrim_multiple_resized_1 (1)_6
+    21300014: scottpilgrim_multiple_resized_1 (1)_7
+    21300016: scottpilgrim_multiple_resized_1 (1)_8
+    21300018: scottpilgrim_multiple_resized_1 (1)_9
+    21300020: scottpilgrim_multiple_resized_1 (1)_10
+    21300022: scottpilgrim_multiple_resized_1 (1)_11
+    21300024: scottpilgrim_multiple_resized_1 (1)_12
+    21300026: scottpilgrim_multiple_resized_1 (1)_13
+    21300028: scottpilgrim_multiple_resized_1 (1)_14
+    21300030: scottpilgrim_multiple_resized_1 (1)_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 120
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 109
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 124
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 123
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 121
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 111
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 123
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 121
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 18
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 6
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 16
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 19
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 4
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: scottpilgrim_multiple_resized_1 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 15
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

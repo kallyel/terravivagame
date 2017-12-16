@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 993fa85b351a74449b3a26f38bc8484b
+timeCreated: 1500583900
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Alfredo Heavy
+  fontNames:
+  - Alfredo Heavy
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
