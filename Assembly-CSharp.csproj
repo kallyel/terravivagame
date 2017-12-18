@@ -48,6 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ButtonsPopUp.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\Dialogo\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\Dialogo\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\Dialogo\DialogueTrigger.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\GUI\HUD.cs" />
      <Compile Include="Assets\Scripts\GUI\HUDPotions.cs" />
@@ -75,7 +78,6 @@
      <Compile Include="Assets\Scripts\TypeWriterEffect.cs" />
      <Compile Include="Assets\Scripts\UIFader.cs" />
      <Compile Include="Assets\k.cs" />
-     <None Include="Assets\textos\potion1.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -19,7 +19,6 @@ public class Player : MonoBehaviour {
 	public float groundCheckRadius;
 	public float velocidade;
 	public float jumpPower;
-	public float invincibleTime = 3.0f;
 
 	//ints
 	public int timerpop;
@@ -31,7 +30,6 @@ public class Player : MonoBehaviour {
 	//bools
 	private bool grounded;
 	public bool pular = false;
-	private bool  invulnerable = false;
 
 	//etc
 	public LayerMask whatIsGround;
@@ -39,7 +37,6 @@ public class Player : MonoBehaviour {
 	private Animator animator;
 	private GUIStyle guiStyle = new GUIStyle();
 	private GameObject temporario;
-	public Text InvencibleT;
 
 
 
@@ -188,41 +185,19 @@ public class Player : MonoBehaviour {
 		if (obj.gameObject.tag == "pisofalso") {
 			obj.gameObject.GetComponent<Rigidbody2D> ().AddForce(Vector3.down * 20);
 		} 
-		if (obj.gameObject.tag == "danger" && invulnerable == false) {
+		if (obj.gameObject.tag == "danger") {
 			Instantiate (damagePrefab, player.transform.position, player.transform.rotation);
-			Gamer.gameObject.transform.Translate(-Vector2.right * 3);
+			Gamer.gameObject.transform.Translate (-Vector2.right * 3);
 			curHealth--;
-			SetInvincible();
-			Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-		}
-		if (invulnerable == true && obj.gameObject.tag == "danger") {
-			Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-
 		}
 	}
 
 	void OnCollisionStay2D(Collision2D obj){
-		if (obj.gameObject.tag == "danger" && invulnerable == false) {
+		if (obj.gameObject.tag == "danger") {
 			Instantiate (damagePrefab, player.transform.position, player.transform.rotation);
 			Gamer.gameObject.transform.Translate(-Vector2.right * 3);
 			curHealth--;
-			SetInvincible();
-		}
-		if (invulnerable == true && obj.gameObject.tag == "danger") {
-			Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-
 		}
 	}
-
-	void SetDamageable()
-	{
-		Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>(),false);
-		invulnerable = false;
-	}
-	public void SetInvincible()
-	{
-		InvencibleT.text = (invincibleTime+ "\n" + "Segundos de invencibilidade");
-		invulnerable = true;
-		Invoke( "SetDamageable", invincibleTime );
-	}
+		
 }		
