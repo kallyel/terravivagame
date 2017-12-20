@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/cenas/Intro.unity
+- path: Assets/cenas/nivel1.unity
   isLoaded: 1
   isActive: 1
